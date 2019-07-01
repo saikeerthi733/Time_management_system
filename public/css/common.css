@@ -1,0 +1,35 @@
+.main-body .navbar-inverse .navbar-nav>.active>a,
+.main-body .pagination>.active>a, .main-body .pagination>.active>a:focus,
+.main-body .pagination>.active>span, .main-body .pagination>.active>span:hover,
+.main-body .btn-primary.disabled:hover {
+	background-color: #4CAF43;
+    border-color: #259d6d;
+}
+
+.main-body .navbar-static-top {
+	border: 0;
+}
+
+.main-body .btn-primary, .main-body .btn-primary.focus, .main-body .btn-primary:focus,
+.main-body .dropdown-menu>.active>a, .main-body .dropdown-menu>.active>a:focus, .main-body .dropdown-menu>.active>a:hover {
+	background-color: #4CAF43;
+}
+
+.sorting-disabled.sorting:after,
+.sorting-disabled.sorting_asc:after,
+.sorting-disabled.sorting_desc:after{
+    content: "" !important;
+    background: none !important;
+}
+
+input.hide-input-spinner[type=number]::-webkit-inner-spin-button, 
+input.hide-input-spinner[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.main-body input[type=checkbox] {
+    height: 1.5em;
+    margin: 0;
+    width: 1.5em;
+}
